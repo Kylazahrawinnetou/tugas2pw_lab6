@@ -1,0 +1,184 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Bootstrap</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+  <style> 
+    body { 
+      background-color: #f9a5d0; 
+    } 
+    .g-col-2 { 
+      display: inline-block; 
+    } 
+    footer {
+      padding: 10px 0;
+      margin: 0; /* Hapus margin */
+      text-align: center;
+      background-color: #db4693;
+      color: white;
+    }
+    h1 {
+      text-align: center;
+    }
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      margin-top: 0; 
+      margin-bottom: 10px;
+      text-align: center;
+      display: inline-block;
+    }
+    .social-icons li {
+      display: inline-block; 
+    }
+    .social-icons a {
+      text-decoration: none;
+    }
+    .social-icons img {
+      width: 50px; 
+      height: 50px;
+      transition: transform 0.3s ease; 
+    }
+    .social-icons img:hover {
+      transform: scale(1.2); 
+    }
+    .image-container {
+      width: 50%; 
+      float: right; 
+    }
+    img {
+      width: 100%; 
+      height: auto; 
+    }
+    .img-fluid {
+      max-width: 70%; 
+      height: auto;
+      margin-left: 100px;
+    }
+    .custom-button {
+      background-color: rgb(251, 86, 188);
+      color: white; 
+    }
+  </style> 
+</head> 
+<body> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">KYLAZHR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-sm-5 text-start">
+        <h2> Login <span class="badge bg-secondary"></span></h2>
+        <p class="fs-6"> Please login to your account </p>
+        <br>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn custom-button">Submit</button>
+      </div>
+      <div class="col-sm-5">
+        <img src="mawar1.jpg" alt="Gambar1" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <h2 align="center"> What's Rose? </h2> 
+  <p style="text-align: center"> 
+    Rose is a type of flower known for its round shape, sweet aroma, various colors, and sharp thorns lining its stem. 
+    Roses are often regarded as symbols of love, affection, and beauty, and are frequently used in special occasions or as gifts to express emotions.
+    Furthermore, rose oil is also used in the perfume and cosmetics industry due to its distinctive fragrance, making it one of the most famous and cherished flowers worldwide.
+  </p>
+  <br>
+  <div class="container text-center">
+    <h2>--- Gallery ---</h2>
+    <p style="text-align: center">
+      Here are the related images
+    </p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="mawar2.jpg" class="card-img-top" alt="Gambar2">
+          <div class="card-body">
+            <p class="card-text">In the enchanting hues of a pink rose, she bloomed like a delicate petal, a vision of grace and elegance. With her radiant smile, she painted the world in shades of happiness and charm, a true embodiment of timeless beauty and femininity💖</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="mawar3.jpg" class="card-img-top" alt="Gambar3">
+          <div class="card-body">
+            <p class="card-text">Her smile was as captivating as the petals of a blooming rose. Her eyes sparkled with delight, and her laughter filled the air, echoing the joy of discovering timeless elegance. She embodied the allure of a rose in full bloom, enchanting✨</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="mawar4.jpg" class="card-img-top" alt="Gambar4">
+          <div class="card-body">
+            <p class="card-text">In the soft, delicate hues of a blooming pink rose, nature paints a masterpiece that enchants the heart and soothes the soul. Each petal tells a story of grace, beauty, and the enduring elegance of life itself. Wonders of the natural world🌹</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-white shadow-sm mt-5 p-3" style="background-color: #db4693; margin-top: 0;">
+    <div class="row justify-content-center">
+      <div class="col-md-11">
+      <br>
+      <h3 class="fw-bold">WINNETOU'S<font color="#A1D6E2"></font></h3>
+      </div>
+      <br>
+        <p class="fst-normal"><font size="4px">Join Us on Social Networks</font></p>
+    <ul class="social-icons">
+      <li>
+        <img src="fac.png" alt="Facebook">
+      </a>
+      </li>
+      <li>
+        <img src="ins.png" alt="Instagram">
+      </a>
+      </li>
+      <li>
+        <img src="git.png" alt="GitHub">
+      </a>
+      </li>
+    </ul>
+    <font size="2px"><p class="text-center">&copy; Copyright WINNETOU'S, 2023 </p></font>
+  </footer>
+</body>
+</html>
